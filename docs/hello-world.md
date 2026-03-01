@@ -49,6 +49,7 @@ We haven't yet implemented anything, but just to see that `npm init neon` produc
 ```shell
 cd cpu-count
 npm install
+npm run build
 ```
 
 The build process generates a handful of files:
@@ -66,7 +67,8 @@ Once we've built the project, we can try running it:
 
 ```shell
 node
-> require('.').hello()
+> const neon = require('.')
+> neon.hello('node')
 hello node
 ```
 
