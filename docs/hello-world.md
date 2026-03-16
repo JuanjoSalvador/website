@@ -67,7 +67,7 @@ Once we've built the project, we can try running it:
 
 ```shell
 node
-> const neon = require('.').hello('node')
+> require('.').hello()
 hello node
 ```
 
